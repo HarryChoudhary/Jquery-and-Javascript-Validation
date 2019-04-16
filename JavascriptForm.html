@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel = 'stylesheet' href = "assn7.css" type = "text/css" />
+        <script src = "assn7.js"></script>
+    </head>
+    <body>
+        <h2>Register here</h2>
+        <form name = "registration" onsubmit="validate()">
+            <ul>
+                <li><label>Name:</label></li>
+                <li><input name = "fname" type = "text" size = "20" required/></li>
+                <li><label>Password:</label></li>
+                <li><input name = "pass" type = "password" size = "12" required/></li>
+                <li><label>Confirm password:</label></li>
+                <li><input name = "cpass" type = "password" size = "12" required/></li>
+                <li><label>Date of birth(dd/mm/yyyy):</label></li>
+                <li><input type = "text" size = "10" required/></li>
+                <li><label>E-mail:</label></li>
+                <li><input name = "email" type = "text" size = "50" required/></li>
+                <li><label>Mobile no. :</label></li>
+                <li><input name = "mob" type = "text" size = "10" required/></li>
+                <li><label>Address:</label></li>
+                <li><input name = "addr" type = "text" size = "50" required/></li>
+                <li><label>Pin code:</label></li>
+                <li><input name = "pin" type = "text" size = "6" required/></li>
+                <li><label>State:</label></li>
+                <li><input type = "text" size = "20" required/></li>
+                <li>
+                    <select name = "country">
+                        <option selected = "" value = "Default">Please select a country</option>
+                        <option>Australia</option>
+                        <option>Belgium</option>
+                        <option>Canada</option>
+                        <option>Denmark</option>
+                        <option>India</option>
+                    </select>
+                </li>
+                <li><input type = "submit" name = "submit" /></li>
+            </ul>
+        </form>
+    </body>
+</html>

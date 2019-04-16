@@ -1,0 +1,17 @@
+h1 h2{
+    margin-left: 70px;
+}
+
+form li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+form li ul label{
+    float: left;
+    clear: left;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
